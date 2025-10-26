@@ -65,4 +65,63 @@ nav ul li a:hover {
   margin-left: 0;
   display: flex;
   justify-content: flex-end; /* kanan */
+
   align-items: flex-start; /* atas */
+@media (max-width: 1024px) {
+  nav {
+    padding: 1em 2em;
+  }
+
+  nav ul {
+    gap: 2em;
+    margin-left: 0;
+  }
+
+  nav ul li a {
+    font-size: 1.8em;
+  }
+
+  nav div img {
+    width: 120px;
+  }
+}
+
+/* Small devices (phones, ≤768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0 1.5em 0;
+    text-align: center;
+  }
+
+  nav div img {
+    width: 100px;
+    margin: 0 auto 1em auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 0;
+  }
+
+  nav ul li a {
+    font-size: 1.5em;
+  }
+}
+
+/* Extra small (very small phones, ≤480px) */
+@media (max-width: 480px) {
+  nav ul li a {
+    font-size: 1.2em;
+  }
+
+  nav div img {
+    width: 80px;
+  }
+
+  nav {
+    padding-bottom: 1em;
+  }
+}
