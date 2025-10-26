@@ -67,6 +67,7 @@ nav ul li a:hover {
   justify-content: flex-end; /* kanan */
 
   align-items: flex-start; /* atas */
+}
 @media (max-width: 1024px) {
   nav {
     padding: 1em 2em;
@@ -125,3 +126,4 @@ nav ul li a:hover {
     padding-bottom: 1em;
   }
 }
+
