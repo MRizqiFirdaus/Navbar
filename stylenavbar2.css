@@ -1,0 +1,68 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+     margin: 0;
+  background-color: black;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+nav {
+   display: flex;
+  padding-left: 5em;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  background-image:
+    /* first layer: gradient fade */
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 30%, rgba(0, 0, 0, 1)90%),
+    /* second layer: your image */
+    url('tembokputih.jpeg');
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-left: 30em;
+    gap: 30%;
+    list-style: none;
+}
+
+nav div img {
+    padding: 0;
+    width: 30%;
+    margin-left: 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size:2.3em;
+    font-family: "Sedgwick Ave Display", cursive;
+    color: rgb(60, 70, 123);
+     text-shadow:
+        0 0 10px rgb(90, 100, 180),
+        0 0 20px rgb(120, 140, 240),
+        0 0 40px rgb(150, 160, 255),
+        0 0 80px rgb(170, 180, 255),
+        0 0 120px rgb(200, 210, 255);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(orangered);
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(24, 23, 24);
+}
+
+.elang {
+  margin-left: 0;
+  display: flex;
+  justify-content: flex-end; /* kanan */
+  align-items: flex-start; /* atas */
